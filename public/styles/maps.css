@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#map { 
+    height:100vh;
+    z-index: 80;
+}
+.puntos{
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    padding: 25px;
+}
+
+.tdMarker{
+    margin-top: 20px;
+}
+.marker{
+    margin-top:20px;
+}
